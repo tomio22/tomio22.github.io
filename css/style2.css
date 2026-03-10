@@ -1,0 +1,115 @@
+html{
+    background-color: rgb(250, 138, 33);
+}
+h1{
+    height: 50px;
+    font-size: 50px;
+    margin-left: 200px;
+}
+p{
+    margin-left: 40px;
+    font-size: 22px;
+}
+#nous_contacter_JS{
+    font-size: 26px;
+    text-align: center;
+    margin-top: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#nous_contacter_JS:hover{
+    color: green;
+}
+
+#button-CV{
+    margin: 20px ;
+    border: black;
+    border-radius: 20px;
+    cursor:pointer;
+    background-color: rgb(22, 224, 35);
+    color: black;
+    border: 5px solid black;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+
+}
+#button-CV:hover{
+     color: azure;
+    text-decoration: underline;
+}
+#button-accueil{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 28px;
+    margin-top: 200px;
+}
+#button-accueil:hover{
+    color: azure;
+    text-decoration: underline;
+}
+#button-1{
+    display: block;
+    margin: 20px auto;
+    border: black;
+    border-radius: 15px;
+    cursor:pointer;
+    background-color: rgb(224, 63, 22);
+    color: black;
+    border: 5px solid black;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+#button-1:hover{
+    background-color: rgb(187, 24, 19);
+    font-weight: bold;
+    color: azure;
+}
+.photo1 {
+  width: 150px;
+}
+.section_photos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.photo_partie{
+    display: block;
+    margin: 50px;
+    align-items: center;
+}
+#information-text{
+    text-align: center;
+}
+.photo_partie {
+    width: 300px;
+    height: 300px;
+}
+.photo_partie img{
+    width: 100%;
+    height: 100%;
+}
+.photo_partie .txt{
+    text-align: center;
+    opacity:0;
+    font-size: 25px;
+    color: white;
+
+}
+.photo_partie:hover .txt {
+    opacity: 0.9;
+}
+
+.liste{
+    margin-left: 25px;
+}
