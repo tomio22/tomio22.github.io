@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded",()=>{/* c'est action quand tu clique*/
     const descriptions={
-        "../photos/tel.jpg":"06 73 85 65 54 " ,
-        "../photos/mail.jpg":"tomforget201513@gmail.com",
-        "../photos/adresse.jpg":" 20 rue lanveur 56000 Lorient",
+        "../photos/tel.jpg":"07 53 82 35 95 " ,
+        "../photos/mail.jpg":"forgetom9356@gmail.com",
+        "../photos/adresse.jpg":" 24 rue lanveur 56000 Lorient",
        
     };
     const zone = document.getElementById("information-text");
